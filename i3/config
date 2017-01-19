@@ -35,7 +35,7 @@ bindsym Print exec scrot -e 'mv $f ~/Screenshots/'
 exec feh --bg-scale ~/Downloads/wallewallpaper.jpg
 
 # start alternating terminals script
-exec_always --no-startup-id python ~/.scripts/alternating_layouts.py
+exec_always --no-startup-id python ~/bin/alternating_layouts.py
 
 # start compton
 exec --no-startup-id compton
