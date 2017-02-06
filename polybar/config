@@ -64,7 +64,7 @@ label-connected = %downspeed%
 [module/updates]
 type = custom/script
 exec = pkgupdates.sh
-interval = 300
+interval = 900
 click-left = urxvt -e sudo pacman -Syu & 
 
 [module/title]

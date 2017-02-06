@@ -29,10 +29,10 @@ bindsym $mod+d exec "rofi -combi-modi window,drun,run,ssh -show combi -opacity 8
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # take screenshot
-bindsym Print exec scrot -e 'mv $f ~/Screenshots/'
+bindsym $mod+Print exec scrot -e 'mv $f ~/Screenshots/'
 
 # set background
-exec feh --bg-scale ~/Downloads/wallewallpaper.jpg
+exec feh --bg-scale --randomize ~/.wallpapers/*
 
 # start alternating terminals script
 exec_always --no-startup-id python ~/bin/alternating_layouts.py
