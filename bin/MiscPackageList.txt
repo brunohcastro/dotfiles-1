@@ -1,3 +1,0 @@
-# List of manually installed packages:
-ls++ -> https://github.com/trapd00r/ls--
-Color-scripts ->  https://github.com/stark/Color-Scripts

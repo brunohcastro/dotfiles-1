@@ -1,0 +1,87 @@
+!-- Xft settings -- !
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+
+!-- Urxvt settings -- !
+URxvt.depth:                32
+URxvt.geometry:             90x30
+! URxvt.transparent:          true
+! URxvt.shading:              20
+! URxvt.fading:               10
+URxvt.urgentOnBell:         true
+URxvt.visualBell:           true
+URxvt.loginShell:           true
+URxvt.saveLines:            200
+URxvt.internalBorder:       3
+URxvt.lineSpace:            0
+
+! Fonts
+URxvt.allow_bold:           true
+URxvt.font: xft:PT Mono:Regular:pixelsize=15
+URxvt.boldFont: xft:PT Mono:Bold:pixelsize=15
+URxvt.italicFont: xft:PT Mono:Italic:pixelsize=15
+URxvt.bolditalicFont: xft:PT Mono:Bold:Italic:pixelsize=15
+
+! Fix font space
+!URxvt.letterSpace: -1
+
+! Scrollbar
+URxvt.scrollStyle:          rxvt
+URxvt.scrollBar: false
+
+! Perl extensions
+URxvt.perl-ext-common:      default,matcher
+URxvt.matcher.button:       1
+URxvt.urlLauncher:          firefox
+
+! special
+*.background:   #0c0d0e
+*.foreground:   #b7b8b9
+*.cursorColor:  #b7b8b9
+
+! black
+*.color0:       #0c0d0e
+*.color8:       #737475
+
+! red
+*.color1:       #e31a1c
+*.color9:       #e31a1c
+
+! green
+*.color2:       #31a354
+*.color10:      #31a354
+
+! yellow
+*.color3:       #dca060
+*.color11:      #dca060
+
+! blue
+*.color4:       #3182bd
+*.color12:      #3182bd
+
+! magenta
+*.color5:       #756bb1
+*.color13:      #756bb1
+
+! cyan
+*.color6:       #80b1d3
+*.color14:      #80b1d3
+
+! white
+*.color7:       #b7b8b9
+*.color15:      #fcfdfe
+
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: #CC393939, #CC393939, #CC268bd2
+rofi.color-normal: #00393939, #CCffffff, #00393939, #CC268bd2, #CCffffff
+rofi.color-active: #00393939, #CC268bd2, #00393939, #CC268bd2, #CC205171
+rofi.color-urgent: #00393939, #CCf3843d, #00393939, #CC268bd2, #CCffc39c
+rofi*font: Meslo LG S 11
+rofi.hide-scrollbar: true
+
