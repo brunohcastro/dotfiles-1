@@ -15,6 +15,7 @@ dhcpcd
 dialog
 diffutils
 dmenu
+dunst
 e2fsprogs
 emacs
 expac
@@ -39,11 +40,13 @@ htop
 hugo-bin
 i3-gaps
 i3blocks
+i3lock-color-git
 inetutils
 iproute2
 iputils
 jfsutils
 less
+libnotify
 libtool
 licenses
 linux
@@ -75,6 +78,7 @@ pulseaudio-ctl
 python
 python-i3-git
 python-pip
+qbittorrent
 qt4
 ranger
 reiserfsprogs
@@ -105,6 +109,7 @@ vlc
 which
 wpa_actiond
 wpa_supplicant
+xautolock
 xbindkeys
 xclip
 xf86-video-intel
