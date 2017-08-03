@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ $BLOCK_BUTTON -eq 1 ]; then
-  i3-msg exec "urxvt -name scratch -e pacaur -Syu" > /dev/null
+  urxvt -name scratch -e pacaur -Syu
 fi
 
 NO=$(checkupdates | wc -l)
