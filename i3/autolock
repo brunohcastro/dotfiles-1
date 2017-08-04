@@ -3,4 +3,4 @@
 exec xautolock -detectsleep \
   -time 3 -locker "~/.config/i3/lock" \
   -notify 30 \
-  -notifier "notify-send -u critical -t 10000 'Locking screen in 30 sec.'"
+  -notifier "notify-send -t 10000 'Locking screen in 30 sec.'"
