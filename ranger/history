@@ -1,0 +1,13 @@
+cut
+rename tags.png
+
+rename cpuq.sh
+mkdir dunst
+copy
+paste
+rename lock
+delete autolock
+rename autolock
+open_with 
+delete
+open_with google-chrome-stable
