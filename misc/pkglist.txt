@@ -122,6 +122,7 @@ xautolock
 xbindkeys
 xclip
 xf86-video-intel
+xflux
 xfsprogs
 xorg-server
 xorg-xbacklight
