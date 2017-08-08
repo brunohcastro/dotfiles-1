@@ -20,6 +20,9 @@ alias ls='ls --color=auto'
 alias shutdown='shutdown now'
 alias scratch='urxvt -name scratch'
 
+export RANGER_LOAD_DEFAULT_RC=FALSE
+export EDITOR=nano
+
 PROMPT=$'\n%F{green}%B%n%b%f : %F{magenta}%B%~%b%f\n➔ '
 
 preexec () { print -Pn "\e]0;urxvt : $1\a" }

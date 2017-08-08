@@ -2,6 +2,7 @@
 
 if [ $BLOCK_BUTTON -eq 1 ]; then
   urxvt -name scratch -e pacaur -Syu
+  notify-send "System Updated."
 fi
 
 NO=$(checkupdates | wc -l)
