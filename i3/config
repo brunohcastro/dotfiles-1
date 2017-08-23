@@ -48,6 +48,9 @@ bindsym $mod+d exec rofi -show run
 # add transparency
 exec --no-startup-id compton
 
+# enable notifications
+exec --no-startup-id dunst
+
 # screenshot
 bindsym Print exec scrot -e 'mv $f ~/Screenshots/'
 
@@ -66,6 +69,12 @@ bindsym $mod+e exec emacs
 
 # floating windows
 for_window [class="URxvt" instance="scratch"] floating enable border pixel 2
+
+# ranger shortcut
+bindsym $mod+w exec urxvt -e ranger
+
+# lock-screen
+bindsym XF86Tools exec .config/i3/lock
 
 # change focus
 bindsym $mod+j focus left

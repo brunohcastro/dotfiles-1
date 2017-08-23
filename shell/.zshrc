@@ -22,6 +22,7 @@ alias scratch='urxvt -name scratch'
 
 export RANGER_LOAD_DEFAULT_RC=FALSE
 export EDITOR=nano
+export PATH=$HOME/bin:$PATH
 
 PROMPT=$'\n%F{green}%B%n%b%f : %F{magenta}%B%~%b%f\n➔ '
 

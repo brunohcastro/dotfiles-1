@@ -23,6 +23,7 @@ emacs
 expac
 fakeroot
 feh
+ffmpeg
 file
 filesystem
 findutils
@@ -62,6 +63,7 @@ make
 man-db
 man-pages
 mdadm
+mpv
 nano
 neofetch
 netctl
@@ -86,6 +88,8 @@ pulseaudio
 pulseaudio-ctl
 python
 python-i3-git
+python-matplotlib
+python-numpy
 python-pip
 qbittorrent
 qt4
@@ -121,7 +125,6 @@ w3m
 which
 wpa_actiond
 wpa_supplicant
-xautolock
 xbindkeys
 xclip
 xf86-video-intel
